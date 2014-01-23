@@ -1756,20 +1756,20 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="J1" library="freetronics-luke" deviceset="UFL" device="" value="U.FL-R-SMT-1(10)">
 <attribute name="NOTE" value="External Ant (Optional)"/>
 </part>
-<part name="R1" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="1kΩ">
+<part name="R1" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="1K 0603">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="IC1" library="linear" deviceset="MCP1703" device="CB" value="MCP1700T-3302E">
 <attribute name="PACKAGE" value="SOT23-3"/>
 </part>
-<part name="C3" library="freetronics-master-v1" deviceset="CAP" device="0603" value="10nF">
+<part name="C3" library="freetronics-master-v1" deviceset="CAP" device="0603" value="10nF 0603">
 <attribute name="PACKAGE" value="0603"/>
 </part>
-<part name="LED1" library="freetronics-master-v1" deviceset="LED" device="0603" value="Power">
-<attribute name="COLOUR" value="Green"/>
+<part name="LED1" library="freetronics-master-v1" deviceset="LED" device="0603" value="Power 0603 BLUE">
+<attribute name="COLOUR" value="Blue"/>
 <attribute name="PACKAGE" value="0603"/>
 </part>
-<part name="L1" library="freetronics-master-v1" deviceset="INDUCTOR" device="0603" value="600Ω at 100MHz">
+<part name="L1" library="freetronics-master-v1" deviceset="INDUCTOR" device="0603" value="600R at 100MHz">
 <attribute name="ID" value="CIC10J601NC"/>
 </part>
 <part name="U$27" library="freetronics-luke" deviceset="GND" device=""/>
@@ -1785,25 +1785,25 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="U$51" library="freetronics-luke" deviceset="GND" device=""/>
 <part name="U$52" library="freetronics-luke" deviceset="GND" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device="" value="+3.3V"/>
-<part name="R4" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="0Ω">
+<part name="R4" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="0R 0603">
 <attribute name="PACKAGE" value="0603"/>
 </part>
-<part name="R3" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="0Ω">
+<part name="R3" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="0R 0603">
 <attribute name="PACKAGE" value="0603"/>
 </part>
-<part name="C4" library="freetronics-master-v1" deviceset="CAP" device="0603" value="1µF">
+<part name="C4" library="freetronics-master-v1" deviceset="CAP" device="0603" value="1uF 0603">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="U$53" library="freetronics-luke" deviceset="GND" device=""/>
-<part name="LED2" library="freetronics-master-v1" deviceset="LED" device="0603" value="GPS Fix">
-<attribute name="COLOUR" value="Yellow"/>
+<part name="LED2" library="freetronics-master-v1" deviceset="LED" device="0603" value="GPS Fix 0603 GREEN">
+<attribute name="COLOUR" value="Green"/>
 <attribute name="PACKAGE" value="0603"/>
 </part>
-<part name="R2" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="470Ω">
+<part name="R2" library="freetronics-master-v1" deviceset="RESISTOR" device="0603" value="470R">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="+3V9" library="supply1" deviceset="+3V3" device="" value="+3.3V"/>
-<part name="C1" library="freetronics-master-v1" deviceset="CAP" device="0603" value="1µF">
+<part name="C1" library="freetronics-master-v1" deviceset="CAP" device="0603" value="1uF 0603">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="U$1" library="freetronics-luke" deviceset="GND" device=""/>
@@ -1814,9 +1814,9 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <sheet>
 <plain>
 <text x="7.62" y="20.32" size="3.048" layer="94">GPS Receiver Module</text>
-<text x="38.1" y="14.478" size="1.778" layer="94">V1.0 (2012-09-29)</text>
+<text x="38.1" y="14.478" size="1.778" layer="94">V1.0 (2014-01-24)</text>
 <text x="7.62" y="14.478" size="1.778" layer="94">SKU: GPS</text>
-<text x="7.366" y="9.398" size="1.778" layer="94">(C)2013 Freetronics Pty Ltd: www.freetronics.com</text>
+<text x="7.366" y="9.398" size="1.778" layer="94">(C)2014 Freetronics Pty Ltd: www.freetronics.com</text>
 <text x="7.366" y="6.35" size="1.778" layer="94">Released under the TAPR Open Hardware License: www.tapr.org/ohl</text>
 <text x="68.326" y="14.478" size="1.778" layer="94">www.freetronics.com/gps</text>
 <frame x1="0" y1="0" x2="190.5" y2="127" columns="8" rows="5" layer="94"/>
@@ -1843,7 +1843,7 @@ external connection can be left floating.</text>
 <attribute name="VALUE" x="152.4" y="73.66" size="1.27" layer="95"/>
 </instance>
 <instance part="+3V6" gate="G$1" x="127" y="73.66" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="119.38" y="73.66" size="1.27" layer="96"/>
+<attribute name="VALUE" x="124.46" y="73.66" size="1.27" layer="96"/>
 </instance>
 <instance part="J2" gate="A" x="33.02" y="48.26" smashed="yes" rot="MR0">
 <attribute name="NAME" x="31.75" y="66.04" size="1.27" layer="95"/>
@@ -1855,7 +1855,6 @@ external connection can be left floating.</text>
 <attribute name="NOTE" x="83.82" y="50.8" size="1.27" layer="96"/>
 </instance>
 <instance part="R1" gate="G$1" x="88.9" y="106.68" smashed="yes" rot="R180">
-<attribute name="PACKAGE" x="86.36" y="109.22" size="1.27" layer="96"/>
 <attribute name="NAME" x="86.36" y="114.3" size="1.27" layer="95"/>
 <attribute name="VALUE" x="86.36" y="111.76" size="1.27" layer="96"/>
 </instance>
@@ -1865,13 +1864,10 @@ external connection can be left floating.</text>
 <attribute name="PACKAGE" x="55.88" y="111.76" size="1.27" layer="96"/>
 </instance>
 <instance part="C3" gate="G$1" x="119.38" y="68.58" smashed="yes" rot="R270">
-<attribute name="NAME" x="111.76" y="76.2" size="1.27" layer="95"/>
-<attribute name="VALUE" x="111.76" y="73.66" size="1.27" layer="96"/>
-<attribute name="PACKAGE" x="111.76" y="71.12" size="1.27" layer="96"/>
+<attribute name="NAME" x="111.76" y="73.66" size="1.27" layer="95"/>
+<attribute name="VALUE" x="111.76" y="71.12" size="1.27" layer="96"/>
 </instance>
 <instance part="LED1" gate="G$1" x="96.52" y="101.6" smashed="yes" rot="MR0">
-<attribute name="COLOUR" x="101.6" y="99.06" size="1.27" layer="96"/>
-<attribute name="PACKAGE" x="101.6" y="96.52" size="1.27" layer="96"/>
 <attribute name="NAME" x="101.6" y="104.14" size="1.27" layer="95"/>
 <attribute name="VALUE" x="101.6" y="101.6" size="1.27" layer="96"/>
 </instance>
@@ -1891,7 +1887,6 @@ external connection can be left floating.</text>
 <instance part="C2" gate="G$1" x="81.28" y="101.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="86.36" y="101.6" size="1.27" layer="95"/>
 <attribute name="VALUE" x="86.36" y="99.06" size="1.27" layer="96"/>
-<attribute name="PACKAGE" x="86.36" y="96.52" size="1.27" layer="96"/>
 </instance>
 <instance part="U$50" gate="G$1" x="81.28" y="91.44" rot="MR0"/>
 <instance part="U$51" gate="G$1" x="63.5" y="91.44" rot="MR0"/>
@@ -1900,31 +1895,25 @@ external connection can be left floating.</text>
 <attribute name="VALUE" x="73.66" y="111.76" size="1.27" layer="96"/>
 </instance>
 <instance part="R4" gate="G$1" x="66.04" y="35.56" smashed="yes" rot="R180">
-<attribute name="PACKAGE" x="63.5" y="38.1" size="1.27" layer="96"/>
 <attribute name="NAME" x="63.5" y="43.18" size="1.27" layer="95"/>
 <attribute name="VALUE" x="63.5" y="40.64" size="1.27" layer="96"/>
 </instance>
 <instance part="R3" gate="G$1" x="66.04" y="48.26" smashed="yes" rot="R180">
-<attribute name="PACKAGE" x="63.5" y="50.8" size="1.27" layer="96"/>
 <attribute name="NAME" x="63.5" y="55.88" size="1.27" layer="95"/>
 <attribute name="VALUE" x="63.5" y="53.34" size="1.27" layer="96"/>
 </instance>
 <instance part="C4" gate="G$1" x="139.7" y="43.18" smashed="yes" rot="R180">
-<attribute name="NAME" x="132.08" y="43.18" size="1.27" layer="95"/>
-<attribute name="VALUE" x="132.08" y="40.64" size="1.27" layer="96"/>
-<attribute name="PACKAGE" x="132.08" y="38.1" size="1.27" layer="96"/>
+<attribute name="NAME" x="134.62" y="40.64" size="1.27" layer="95"/>
+<attribute name="VALUE" x="134.62" y="38.1" size="1.27" layer="96"/>
 </instance>
 <instance part="U$53" gate="G$1" x="139.7" y="33.02" rot="MR0"/>
 <instance part="LED2" gate="G$1" x="73.66" y="60.96" smashed="yes" rot="MR90">
-<attribute name="COLOUR" x="68.58" y="66.04" size="1.27" layer="96"/>
-<attribute name="PACKAGE" x="68.58" y="63.5" size="1.27" layer="96"/>
-<attribute name="NAME" x="68.58" y="71.12" size="1.27" layer="95"/>
-<attribute name="VALUE" x="68.58" y="68.58" size="1.27" layer="96"/>
+<attribute name="NAME" x="68.58" y="66.04" size="1.27" layer="95"/>
+<attribute name="VALUE" x="58.42" y="63.5" size="1.27" layer="96"/>
 </instance>
 <instance part="R2" gate="G$1" x="83.82" y="60.96" smashed="yes" rot="R180">
-<attribute name="PACKAGE" x="81.28" y="63.5" size="1.27" layer="96"/>
-<attribute name="NAME" x="81.28" y="68.58" size="1.27" layer="95"/>
-<attribute name="VALUE" x="81.28" y="66.04" size="1.27" layer="96"/>
+<attribute name="NAME" x="83.82" y="66.04" size="1.27" layer="95"/>
+<attribute name="VALUE" x="83.82" y="63.5" size="1.27" layer="96"/>
 </instance>
 <instance part="+3V9" gate="G$1" x="91.44" y="66.04" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="93.98" y="66.04" size="1.27" layer="96"/>
@@ -1932,7 +1921,6 @@ external connection can be left floating.</text>
 <instance part="C1" gate="G$1" x="50.8" y="101.6" smashed="yes" rot="R180">
 <attribute name="NAME" x="43.18" y="101.6" size="1.27" layer="95"/>
 <attribute name="VALUE" x="43.18" y="99.06" size="1.27" layer="96"/>
-<attribute name="PACKAGE" x="43.18" y="96.52" size="1.27" layer="96"/>
 </instance>
 <instance part="U$1" gate="G$1" x="50.8" y="91.44" rot="MR0"/>
 <instance part="FD1" gate="G$1" x="124.46" y="7.62"/>
