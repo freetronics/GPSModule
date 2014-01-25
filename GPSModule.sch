@@ -1778,7 +1778,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <part name="U$41" library="freetronics-luke" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device="" value="+3.3V"/>
 <part name="U$49" library="freetronics-luke" deviceset="GND" device=""/>
-<part name="C2" library="freetronics-master-v1" deviceset="CAP" device="0603" value="1µF">
+<part name="C2" library="freetronics-master-v1" deviceset="CAP" device="0603" value="1uF 0603">
 <attribute name="PACKAGE" value="0603"/>
 </part>
 <part name="U$50" library="freetronics-luke" deviceset="GND" device=""/>

@@ -679,7 +679,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="7.77875" y="24.60625" size="0.8128" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="7.77875" y="24.60625" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="C2" library="freetronics-master-v1" package="0603" value="1µF" x="6.35" y="23.535640625" smashed="yes" rot="R180">
+<element name="C2" library="freetronics-master-v1" package="0603" value="1uF 0603" x="6.35" y="23.535640625" smashed="yes" rot="R180">
 <attribute name="PACKAGE" value="0603" x="6.35" y="23.535640625" size="0.015240625" layer="27" font="vector" rot="R180" display="off"/>
 <attribute name="NAME" x="7.77875" y="23.1775" size="0.8128" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="7.77875" y="23.1775" size="0.8128" layer="27" font="vector" ratio="15"/>
