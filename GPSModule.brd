@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -9,18 +9,18 @@
 <grid distance="0.01" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="6.25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="15" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -642,26 +642,26 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="IC2" library="freetronics-luke" package="GPS" value="FGPMMOPA6H" x="13.9065" y="12.5095" smashed="yes">
 <attribute name="NAME" x="13.23975" y="15.20825" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="5.87375" y="20.79625" size="0.8128" layer="27" ratio="15"/>
+<attribute name="VALUE" x="10.69975" y="11.39825" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="J2" library="pinhead" package="1X09" value="Interface" x="13.97" y="2.667" smashed="yes">
 <attribute name="NAME" x="14.605" y="3.4925" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="3.175" y="4.7625" size="0.8128" layer="27" ratio="15"/>
+<attribute name="VALUE" x="3.175" y="3.7465" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="J1" library="freetronics-luke" package="UFL" value="U.FL-R-SMT-1(10)" x="25.908" y="6.731" smashed="yes">
 <attribute name="NOTE" value="External Ant (Optional)" x="-46.228" y="-273.685" size="0.015240625" layer="27" font="vector" display="off"/>
 <attribute name="NAME" x="25.55875" y="6.35" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="25.55875" y="9.04875" size="0.8128" layer="27" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="25.30475" y="6.69925" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="R1" library="freetronics-master-v1" package="0603" value="1K 0603" x="2.032" y="7.874" smashed="yes">
 <attribute name="PACKAGE" value="0603" x="-146.304" y="-245.872" size="0.015240625" layer="27" font="vector" display="off"/>
 <attribute name="NAME" x="3.46075" y="7.493" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="3.46075" y="7.493" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="0.92075" y="6.477" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="IC1" library="linear" package="SOT23" value="MCP1700T-3302E" x="2.4765" y="22.733" smashed="yes">
 <attribute name="PACKAGE" value="SOT23-3" x="-137.2235" y="-269.621" size="0.015240625" layer="27" font="vector" display="off"/>
 <attribute name="NAME" x="1.5875" y="24.765" size="0.8128" layer="25" ratio="15"/>
-<attribute name="VALUE" x="0" y="19.3675" size="0.8128" layer="27" ratio="15"/>
+<attribute name="VALUE" x="0.254" y="19.6215" size="0.8128" layer="27" ratio="15"/>
 </element>
 <element name="C3" library="freetronics-master-v1" package="0603" value="10nF 0603" x="2.013" y="17.0815" smashed="yes" rot="R270">
 <attribute name="PACKAGE" value="0603" x="-261.639" y="116.6495" size="0.015240625" layer="27" font="vector" rot="R270" display="off"/>
@@ -687,17 +687,17 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R4" library="freetronics-master-v1" package="0603" value="0R 0603" x="24.4475" y="11.43" smashed="yes">
 <attribute name="PACKAGE" value="0603" x="24.4475" y="11.43" size="0.015240625" layer="27" font="vector" display="off"/>
 <attribute name="NAME" x="23.749" y="11.938" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="24.13" y="10.795" size="0.8128" layer="27" font="vector" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="24.511" y="10.16" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R3" library="freetronics-master-v1" package="0603" value="0R 0603" x="24.4475" y="13.335" smashed="yes">
 <attribute name="PACKAGE" value="0603" x="24.4475" y="13.335" size="0.015240625" layer="27" font="vector" display="off"/>
 <attribute name="NAME" x="23.8125" y="13.97" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="24.13" y="15.5575" size="0.8128" layer="27" font="vector" ratio="15" rot="R270"/>
+<attribute name="VALUE" x="24.8285" y="13.97" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C4" library="freetronics-master-v1" package="0603" value="1uF 0603" x="24.60625" y="19.7485" smashed="yes" rot="R180">
 <attribute name="PACKAGE" value="0603" x="24.60625" y="19.7485" size="0.015240625" layer="27" font="vector" rot="R180" display="off"/>
 <attribute name="NAME" x="23.97125" y="20.41525" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="23.01875" y="18.89125" size="0.8128" layer="27" font="vector" ratio="15" rot="R90"/>
+<attribute name="VALUE" x="22.70125" y="18.38325" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="LED2" library="freetronics-master-v1" package="LED-0603" value="GPS Fix 0603 GREEN" x="2.032" y="13.462" smashed="yes">
 <attribute name="PACKAGE" value="0603" x="2.032" y="13.462" size="0.015240625" layer="27" font="vector" display="off"/>
@@ -708,7 +708,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R2" library="freetronics-master-v1" package="0603" value="470R" x="2.032" y="11.938" smashed="yes" rot="R180">
 <attribute name="PACKAGE" value="0603" x="2.032" y="11.938" size="0.015240625" layer="27" font="vector" rot="R180" display="off"/>
 <attribute name="NAME" x="3.46075" y="11.52525" size="0.8128" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="3.46075" y="11.52525" size="0.8128" layer="27" font="vector" ratio="15"/>
+<attribute name="VALUE" x="1.17475" y="10.76325" size="0.8128" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C1" library="freetronics-master-v1" package="0603" value="1uF 0603" x="6.35" y="26.67" smashed="yes" rot="R180">
 <attribute name="PACKAGE" value="0603" x="6.35" y="26.67" size="0.015240625" layer="27" font="vector" rot="R180" display="off"/>
